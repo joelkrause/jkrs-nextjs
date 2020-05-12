@@ -16,8 +16,7 @@ const Home = ({home,posts}) => (
         <RichText render={home.data.hero_content} />
       </HeroText>
     </Hero>
-    <h2>Latest Posts</h2>
-    <Posts posts={posts}/>
+    <Posts posts={posts} heading="Latest Posts" filters="false"/>
   </Layout>
 )
 

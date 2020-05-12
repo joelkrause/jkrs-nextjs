@@ -5,7 +5,11 @@ import styled from 'styled-components'
 
 const Header = () => (
     <HeaderWrapper>
-        <Logo>Joel Krause</Logo>
+        <Logo>
+            <Link href="/">
+                <a>Joel Krause</a>
+            </Link>
+        </Logo>
         <NavWrapper>
             <NavList>
                 <NavItem>
@@ -30,6 +34,10 @@ const HeaderWrapper = styled.header`
 
 const Logo = styled.div`
     font-weight:bold;
+    a{
+        color:currentColor;
+        text-decoration:none;
+    }
 `
 
 const NavWrapper = styled.nav``
