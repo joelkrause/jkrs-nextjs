@@ -8,7 +8,7 @@ const Post = ({post}) => {
         const titled = RichText.asText(post.data.title).length !== 0;
         const title = titled ? RichText.asText(post.data.title) : "Untitled";
         return(
-            <Layout>
+            <Layout title={title}>
                 <h1>{title}</h1>
                 <RichText render={post.data.body} />
                 <pre>{JSON.stringify(post, null, 2)}</pre>

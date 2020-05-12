@@ -9,10 +9,10 @@ const Header = () => (
         <NavWrapper>
             <NavList>
                 <NavItem>
-                    <Link href="/">Home</Link>
+                    <Link href="/"><a>Home</a></Link>
                 </NavItem>
                 <NavItem>
-                    <Link href="/posts">Posts</Link>
+                    <Link href="/posts"><a>Posts</a></Link>
                 </NavItem>
             </NavList>
         </NavWrapper>
