@@ -23,7 +23,7 @@ const Home = ({home,posts}) => (
 Home.getInitialProps = async function({ req }) {
   try {
       const document = await Client(req).getByUID("home", "home");
-      const posts = await Client(req).query(Prismic.Predicates.at("document.type","post"))
+      const posts = await Client(req).query(Prismic.Predicates.at("document.type","post"), { pageSize: 6, orderings : '[document.first_publication_date desc]' })
 
       return {
         home: document,

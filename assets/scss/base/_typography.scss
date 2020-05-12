@@ -1,10 +1,25 @@
-@import url("https://use.typekit.net/nwp1vst.css");
+@import url('https://rsms.me/inter/inter.css');
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Inter var', sans-serif;
+    }
+}
 
 body,
 html {
-    font-family: 'sofia-pro', sans-serif;
     margin: 0;
     padding: 0;
     background: var(--primaryColor);
     color: var(--textColor);
+    font-size: 1.025rem;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
 }

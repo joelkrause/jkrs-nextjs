@@ -5,8 +5,6 @@ import Post from './post'
 const Posts = ({posts, heading, filters}) => (
     <PostsWrapper>
         <h2>{heading}</h2>
-        {filters}
-
         {posts.map((post) => (
             <Post post={post} key={post.id} />
         ))}

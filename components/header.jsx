@@ -26,10 +26,11 @@ const Header = () => (
 export default Header
 
 const HeaderWrapper = styled.header`
-    padding:3rem;
+    padding:2rem;
     display:flex;
     align-items:center;
     position:sticky;
+    top:0;
 `
 
 const Logo = styled.div`
