@@ -49,8 +49,8 @@ const Hero = styled.div`
 const HeroText = styled.div``
 
 const HeroImg = styled.div`
-  max-width:35%;
-  min-width:35%;
+  max-width:40%;
+  min-width:40%;
   padding-right:5vw;
 
   img{

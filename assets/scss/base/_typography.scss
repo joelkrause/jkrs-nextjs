@@ -1,14 +1,4 @@
-@import url('https://rsms.me/inter/inter.css');
-
-html {
-    font-family: 'Inter', sans-serif;
-}
-
-@supports (font-variation-settings: normal) {
-    html {
-        font-family: 'Inter var', sans-serif;
-    }
-}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap');
 
 body,
 html {
@@ -16,10 +6,11 @@ html {
     padding: 0;
     background: var(--primaryColor);
     color: var(--textColor);
-    font-size: 1.025rem;
+    font-size: 1.0125rem;
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+    font-family: var(--primaryFont);
 }
