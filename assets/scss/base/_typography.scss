@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600&family=Manrope:wght@800&display=swap');
 
 body,
 html {
@@ -12,5 +12,9 @@ html {
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-    font-family: var(--primaryFont);
+    font-family: -apple-system,BlinkMacSystemFont,sans-serif;
+}
+
+p {
+    line-height: 1.75;
 }

@@ -8,7 +8,7 @@ import { Client } from "../prismic-configuration";
 
 const Home = ({home,posts}) => (
   <Layout title="Home">
-    <Hero>
+    <Hero className="container">
       <HeroImg>
         <img src={home.data.hero_image.url} />
       </HeroImg>
@@ -38,8 +38,6 @@ Home.getInitialProps = async function({ req }) {
 export default Home
 
 const Hero = styled.div`
-  max-width:55vw;
-  margin:0 auto;
   padding:5vw 0;
   display:flex;
   justify-content:space-between;
