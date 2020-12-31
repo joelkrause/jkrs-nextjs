@@ -31,7 +31,6 @@ const HeaderWrapper = styled.header`
     align-items:center;
     position:sticky;
     top:0;
-    font-family: var(--accentFont);
 `
 
 const Logo = styled.div`

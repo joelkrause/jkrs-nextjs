@@ -33,6 +33,8 @@ const PostWrapper = styled.article`
         margin-left:-0.5rem;
         margin-right:-0.5rem;
         border-radius:5px;
+        margin-bottom:-1px;
+        margin-top:-1px;
         &:hover{
             background:var(--accentColor);
         }
