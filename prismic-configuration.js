@@ -12,6 +12,9 @@ export const linkResolver = (doc) => {
     if (doc.type === 'post') {
       return `/posts/${doc.uid}`
     }
+    if (doc.type === 'page') {
+      return `/page/${doc.uid}`
+    }
     return '/'
   }
 

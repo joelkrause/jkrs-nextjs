@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import styled from 'styled-components'
 
 
@@ -7,7 +8,9 @@ const Header = () => (
     <HeaderWrapper>
         <Logo>
             <Link href="/">
-                <a>Joel Krause</a>
+                <a>
+                    <Image src="/a759a8d1ff53942a4db15afc0cdf81bd-sticker.png" width="75" height="75"/>
+                </a>
             </Link>
         </Logo>
         <NavWrapper>
